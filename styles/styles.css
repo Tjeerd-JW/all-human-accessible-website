@@ -237,6 +237,7 @@ main {
             text-align: center;
             grid-column: 1 / -1;
             font-weight: 75;
+
             svg {
                 path {
                     fill: var(--color-two-white);
@@ -367,6 +368,11 @@ main {
         text-align: center;
     }
 
+    h3 {
+        text-align: center;
+        color: var(--color-two-black);
+    }
+
     ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -374,6 +380,10 @@ main {
 
         li {
             text-align: center;
+
+            p {
+                color: var(--color-two-black);
+            }
         }
     }
 
@@ -384,17 +394,17 @@ main {
         margin: auto;
         width: clamp(275px, 100%, 600px);
 
-        h3 {
+        h4 {
             text-align: center;
+            color: var(--color-two-black);
+
         }
 
         section {
             display: grid;
-            background-color: #90A1AA;
             padding: 10px;
-            border-radius: 10px;
-
-            h4 {
+            border-top: var(--color-two-white) 2px solid;
+            h5 {
                 grid-column: 1 / -1;
                 grid-row: 1;
 
