@@ -7,7 +7,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 ## Figma design
 
 [design](https://www.figma.com/design/DDJtsZwW761j0cv7lif12H/Untitled?node-id=0-1&p=f&t=RmsHHloxHIy2Arox-0)
-
+[design opdrachtgever](https://www.figma.com/design/LyrmrJaf4XnP20fzI1D5WB/2025snappthisDesign?node-id=0-1&p=f&t=5pAeUgc1eoGsHm0p-0)
 
 ## Inhoudsopgave Readme
 
