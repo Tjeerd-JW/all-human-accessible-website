@@ -360,7 +360,52 @@ main {
 
             li {
                 text-align: center;
+
+                svg {
+                    &:hover {
+                        cursor: pointer;
+                        animation-name: vibrate-fast;
+                        animation-duration: 1s;
+                        animation-timing-function: linear;
+                        animation-delay: 2s;
+                        animation-iteration-count: infinite;
+                        animation-direction: normal;
+                        animation-fill-mode: none;
+                    }
+                }
             }
+
+            li:first-child {
+                svg {
+                    &:hover {
+                        path {
+                            fill: #ff2A34;
+                        }
+                    }
+                }
+            }
+
+            li:nth-child(2) {
+                svg {
+                    &:hover {
+
+                        path {
+                            fill: #fcdf03;
+                        }
+                    }
+                }
+            }
+
+            li:last-child {
+                svg {
+                    &:hover {
+                        path {
+                            fill: #ff2A34;
+                        }
+                    }
+                }
+            }
+
         }
     }
 }
@@ -453,4 +498,232 @@ main {
             }
         }
     }
+}
+
+/* Animations */
+@keyframes vibrate-fast {
+
+    0% {
+        transform: translate(0);
+    }
+
+    10% {
+        transform: translate(-2px, -2px);
+    }
+
+    20% {
+        transform: translate(2px, -2px);
+    }
+
+    30% {
+        transform: translate(-2px, 2px);
+    }
+
+    40% {
+        transform: translate(2px, 2px);
+    }
+
+    50% {
+        transform: translate(-2px, -2px);
+    }
+
+    60% {
+        transform: translate(2px, -2px);
+    }
+
+    70% {
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        transform: translate(-2px, -2px);
+    }
+
+    90% {
+        transform: translate(2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+/* tomato animation */
+@keyframes throw {
+    0% {
+        transform: translateY(1000px) translateX(-1000px);
+        /* transform: ; */
+        opacity: 1;
+    }
+
+    20% {
+        transform: skew(10deg, 5deg) scale(1, 1.25);
+
+    }
+
+    30% {
+        transform: skew(0, 0) scale(1, 1.5);
+
+    }
+
+    35% {
+        transform: skew(0, 0) scale(1, 1.5);
+
+    }
+
+    35% {}
+
+    40% {
+        transform: translateY(0) translateX(0) skew(0, 0) scale(1, 1.5);
+
+    }
+
+    45% {
+        transform: scale(1, 1.5);
+    }
+
+    100% {
+        transform: translateY(100vh) scale(1, 1.75);
+        opacity: 1;
+    }
+}
+
+.tomato-throw {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+
+    /* transform: skew(30deg, 20deg); */
+    path {
+        fill: #ff2A34;
+    }
+}
+
+.throw {
+    animation-name: throw;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    display: block;
+    opacity: 0;
+
+}
+
+/* star animation */
+@keyframes sparkle {
+    0% {
+        opacity: 1;
+        transform: translateX(-100vw) translateY(-100vh) scale(1) rotate(0)
+    }
+
+    /* 50% {
+        transform: translateX(-50vw) translateY(-50vh) scale(4) rotate(540deg)
+    } */
+
+    100% {
+        transform: translateX(10vw) translateY(10vh) scale(6) rotate(1080deg);
+        opacity: 1;
+    }
+}
+
+.star-sparkle {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    opacity: 0;
+}
+
+.sparkle {
+    animation-name: sparkle;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+
+/* heart animation */
+
+@keyframes love {
+    0% {
+        transform: translateX(100vw) rotateY(30deg) scale(6.5);
+        transform-origin: -100% 50%;
+        opacity: 0;
+    }
+
+    20% {
+        background-color: transparent;
+
+    }
+
+    30% {
+        transform: translateX(0) rotateY(0) scale(1);
+        transform-origin: 600px 50%;
+        opacity: 1;
+
+    }
+
+    31% {
+        transform-origin: 50% 50%;
+    }
+
+    40% {
+        transform: scale(3);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+
+    60% {
+        transform: scale(4);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    80% {
+        background-color: transparent;
+
+        transform: translateX(0) rotate(0deg);
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-100vw) rotate(-540deg);
+        opacity: 0;
+    }
+}
+
+.heart-love {
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    right: 50%;
+
+    path {
+        fill: #ff2A34;
+    }
+}
+
+.love {
+    animation-name: love;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 }
