@@ -32,6 +32,17 @@ In dit project kan je samen in een groep thema's aanmaken en daarin in foto's de
 Voor deze website heb ik HTML en CSS gebruikt in de CSS heb ik minimaal gebruik gemaakt van classes. De website is responsive en werkt op zowel mobiel als op desktop.
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
+## Toegankelijkheid
+
+### Contrast
+Een vernieuwde huisstijl zorgt voor meet contrast op de website waardoor hij toeganklijker word voor mensen die kleurenblind zijn.
+
+### Headingstructuur
+Een nieuwe headingstructuur zorgt ervoor dat de website beter toegankelijkheid wordt.
+
+### Lang tag
+Een juiste lang tag zorgt ervoor dat de pagina jusit vertaald kan worden door de browser.
+
 ## Gemaakt door
 [Tjeerd](https://github.com/Tjeerd-JW)
 
