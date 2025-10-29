@@ -7,6 +7,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 ## Figma design
 
 [design](https://www.figma.com/design/DDJtsZwW761j0cv7lif12H/Untitled?node-id=0-1&p=f&t=RmsHHloxHIy2Arox-0)
+
 [design opdrachtgever](https://www.figma.com/design/LyrmrJaf4XnP20fzI1D5WB/2025snappthisDesign?node-id=0-1&p=f&t=5pAeUgc1eoGsHm0p-0)
 
 ## Inhoudsopgave Readme
@@ -22,7 +23,7 @@ In dit project kan je samen in een groep thema's aanmaken en daarin in foto's de
 
 <img height="250px" src="assets/phonepreview.png">
 
-[Bekijk pagina](https://tjeerd-jw.github.io/the-client-website/)
+[Bekijk pagina](https://tjeerd-jw.github.io/all-human-accessible-website/)
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
